@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a class="logo" href="#">SUMIYA<span> .</span></a>
+      <div class="nav-actions">
+        <button id="themeBtn" class="icon-btn" aria-label="Toggle theme">☾</button>
+        <button id="menuBtn" class="icon-btn menu-btn" aria-label="Open menu">☰</button>
+      </div>
+      <ul id="navMenu" class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm  <span class="gradient-text"> Sumiya Tasmi</span></h1>
+        <h2>A <span id="roleText">CSE Student</span><span class="cursor">|</span></h2>
+        <p class="hero-description">
+         I build modern , scalable, and user-friendly web applications with a passion for clean code and great UX.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projects">🚀 Explore My Work</a>
+          <a class="btn btn-outline" href="#contact">✉ Contact Me</a>
+        </div>
+      </div>
+      <div class="profile-wrap">
+        <div class="profile-circle">
+          <div class="profile-placeholder">
+            
+            <img src="IMG_4137(1).jpg" alt="my picture" class="profile-photo">
+          </div>
+        </div>
+        <span class="floating-dot dot-one"></span>
+        <span class="floating-dot dot-two"></span>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      <div class="about-card">
+        <p>
+          Hello! I am a Computer Science and Engineering student. I enjoy exploring
+          web development, programming and technology. I am currently improving my
+          skills through practice and academic projects. My goal is to become a
+          confident developer and build helpful digital solutions.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+      <div class="skill-grid">
+        <div class="skill-card"><span>🌐</span><h3>HTML</h3><p>Page structure</p></div>
+        <div class="skill-card"><span>🎨</span><h3>CSS</h3><p>Styling & layout</p></div>
+        <div class="skill-card"><span>⚡</span><h3>JavaScript</h3><p>Basic interactivity</p></div>
+        <div class="skill-card"><span>🐘</span><h3>PHP</h3><p>Server-side basics</p></div>
+        <div class="skill-card"><span>🗄️</span><h3>MySQL</h3><p>Database basics</p></div>
+        <div class="skill-card"><span>💻</span><h3>C / C++</h3><p>Programming fundamentals</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <p class="eyebrow">SOME THINGS I'VE BUILT</p>
+      <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-icon">🌿</div>
+          <h3>Smart Plant</h3>
+          <p>An IoT-based plant monitoring and automatic watering project using a soil moisture sensor and ESP32.</p>
+          <div class="tags"><span>ESP32</span><span>IoT</span><span>Web</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">🐟</div>
+          <h3>Smart Fish Pond</h3>
+          <p>A water-quality monitoring prototype that checks pH, temperature and turbidity and gives alerts.</p>
+          <div class="tags"><span>IoT</span><span>ESP32</span><span>Flask</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">🧭</div>
+          <h3>Bangla Travel Spot</h3>
+          <p>A travel information website to explore tourist places in Bangladesh and learn about routes and locations.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>PHP</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+      <div class="contact-card">
+        <p>Have a project idea or want to connect? Feel free to send me an email.</p>
+        <a class="btn btn-primary" href="mailto:your-email@example.com">✉ Send Email</a>
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> SUMIYA. ALL RIGHTS RESERVED.  <p>Made with Sumiya💜</p></p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
